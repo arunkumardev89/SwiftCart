@@ -1,0 +1,121 @@
+html,body{
+    margin: 0;
+    padding:0;
+    font-family: 'rubik',sans-serif;
+    background-color:#EEF0F4; 
+    background-image: url("./bg.jpeg");
+    user-select: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+ }
+
+img{
+    width: 150px;
+    margin:0 auto;
+    padding-bottom:15px; 
+}
+input{
+    color: #432000;
+    background-color: #DCE1EB;
+    border:0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0px;
+    font-family: 'rubik',sans-serif;
+   
+}
+
+
+
+button{
+
+    color: #FDFDFD;
+    background-color:saddlebrown;
+    border:0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'rubik',sans-serif;
+ 
+}
+
+button:hover{
+       background-color:chocolate;
+       cursor: pointer
+}
+
+#signup-btn{
+    background:green;
+}
+#signup-btn:hover{
+    background-color:gray;
+       cursor: pointer
+}
+
+#signout-btn{
+     position: fixed;
+    top: 10px;
+    right: 5PX; /* Adjust this value as needed */
+    background-color: burlywood; /* Red background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor on hover */
+}
+
+#signout-btn:hover{
+       background-color:gray;
+       cursor: pointer
+}
+ul{
+    
+    list-style-type: none;
+    padding: 0;
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+   
+}
+
+ul li{
+    
+    font-size: 20px;
+    padding: 15px;
+    background-color: #FFFDF8;
+    border-radius: 8px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    flex-grow: 1;
+    text-align: center;
+
+}
+
+
+ul li:hover{
+      background-color: #FFECC7;
+      cursor: pointer
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color:black;
+    font-weight:bolder;
+}
+
+p{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-weight:bold;
+}
+
+
